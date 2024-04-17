@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.titulo{
+    background-color: white;
+}
+
+.principal{
+    position:fixed;
+    float:left;
+    width: 280;
+   height: 100%;
+   background: rgb(0, 0, 0); 
+   border-right: 1px solid #3c3c3c;
+   box-shadow:0 0 15px rgba(0,0,0,.15);
+   background-color: rgb(15, 109, 109);
+   color: #2b2b2b;
+}
+
+title{
+    color:blue;
+}
+#calendar {
+    float: right;
+    width: 1100px;
+  }
+
+        title{
+            color: blue;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            cursor: pointer; /* Adiciona estilo de cursor para indicar que a célula é clicável */
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Adiciona estilo para célula clicada */
+        /* Adiciona estilo para a linha de datas */
+        tr.date {
+            font-weight: bold;
+        }
+
+        /* Adiciona estilo para o formulário */
+        #formulario {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+      
+
+        #formulario label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #formulario input,
+        #formulario select,
+        #formulario textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        #formulario textarea {
+            resize: vertical;
+        }
+
+        #formulario button {
+            background-color: green;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        th.hoje {
+            background-color: #416F3F; /* Cor de fundo amarela para destacar o dia atual */
+        }
+        
+        .form-group{
+            text-align:left;
+        }
+
+        .btn-custom-close {
+        background-color: rgb(250, 145, 145);
+        color: red;
+        border-color: red;
+    }
+
+    .btn-custom-salvar {
+        background-color: rgb(142, 142, 244);
+        color: blue;
+        border-color: blue;
+    }
+
+    .btn-confirmar{
+        background-color: rgb(146, 254, 153);
+        color: green;
+        border-color: green;
+        padding: 7px;
+    }
+
+    .modal-personalizado{
+        min-width: 60%; 
+        margin-left: 70; 
+    }
+
+    .modal-content {
+        min-height: 100vh;
+    }   
+
+    hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+  color: black;
+}
+
+
